@@ -110,9 +110,10 @@ body {
   .pop-up__head {
     display: flex;
     flex-direction: row;
-    height: 40px;
     justify-content: space-between;
     margin-bottom: 57px;
+    height: 40px;
+    align-content:flex-end;
   }
   
   .pop-up__head-left {
@@ -120,7 +121,13 @@ body {
     flex-direction: row;
     gap: 17px;
   }
-  
+
+
+  .logo-link {
+    display: flex;
+    align-self:center;
+  }
+ 
   .pop-up__navigation-list {
     display: flex;
     flex-direction: column;
